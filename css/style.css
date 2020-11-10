@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+pie {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  float: left;
+}
+#circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: white;
+  background-image: linear-gradient(210deg, transparent 50%, #261f0f 50%),
+    linear-gradient(150deg, #261f0f 50%, transparent 50%);
+}
+#circle-in {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: #00adff;
+  background-image: linear-gradient(210deg, transparent 50%, white 50%),
+    linear-gradient(147deg, white 50%, transparent 50%);
+}
+#empthy {
+  border-radius: 50% 50% 50% 0;
+  border: 15px solid #261f0f;
+}
+#car-market {
+  position: relative;
+  color: #261f0f;
+  font-family: "Arial", Times, serif;
+  font-size: 27px;
+  font-weight: 750;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  left: 100px;
+  top: 20px;
+}
+#expert {
+  position: relative;
+  left: 100px;
+  top: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00adff;
+  font-family: "Arial", Times, serif;
+}
+#datamining {
+  position: relative;
+  color: #261f0f;
+  left: 210px;
+  top: -24px;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 11px;
+}
